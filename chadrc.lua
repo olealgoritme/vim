@@ -3,6 +3,12 @@ local M = {}
 local plugin_conf = require "custom.plugins.configs"
 local userPlugins = require "custom.plugins"
 
+M.options = {
+   number = false, -- numbered lines
+   numberwidth = 2, -- width of numbered lines
+   relativenumber = false, -- relative numbered lines
+}
+
 M.plugins = {
 
    status = {

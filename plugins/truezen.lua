@@ -4,7 +4,7 @@ require("true-zen").setup {
          showtabline = 0,
       },
       left = {
-         number = true,
+         number = false,
       },
    },
    modes = {
